@@ -1996,8 +1996,9 @@ button,
   -ms-transition: color 0.25s ease-in-out, border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
   transition: color 0.25s ease-in-out, border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
   display: inline-block;
-  color: inherit;
-  background: none;
+  color: #fff;
+  background: #ffb600;
+  font-weight: bold;
   text-decoration: none;
   border: solid 1px #c2c7cc;
   border-radius: 0.35em;
@@ -2084,20 +2085,14 @@ button:hover,
 #header-wrapper {
   position: relative;
   padding: 4em 0 2em 0;
-  background-image: url("../assets/header.svg");
-  background-image: url("../assets/overlay.png"), url("../assets/header.svg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-  background-image: url("../assets/overlay.png"), url("../assets/header.svg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-  background-image: url("../assets/overlay.png"), url("../assets/header.svg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-  background-image: url("../assets/overlay.png"), url("../assets/header.svg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-  background-color: #f08c89;
-  background-size: 100% 620%;
-  background-size: 128px 128px, 100% 620%, auto;
-  background-repeat: repeat, no-repeat, no-repeat;
+  background-image: linear-gradient(75deg, rgba(0,0,0,0.7) 15%, rgba(0,0,0,0.7) 55%), url("/images/header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .homepage #header-wrapper {
   padding: 10em 0 6em 0;
-  background-size: 128px 128px, 100% 100%, auto;
 }
 
 #promo-wrapper {
@@ -2234,10 +2229,11 @@ button:hover,
 }
 
 #hero .button {
-  background: #fff;
+  background: #ffb600;
   border-color: rgba(255, 255, 255, 0);
-  color: #f08c89;
+  color: #fff;
   font-size: 1.25em;
+  font-weight: bold;
 }
 
 #hero .button:hover {

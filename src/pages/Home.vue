@@ -49,7 +49,7 @@
         </div>
         <ul class="actions major">
           <li>
-            <router-link to="/highlights" class="button">Live Feed</router-link>
+            <router-link to="/livefeed" class="button">Entire live feed</router-link>
           </li>
         </ul>
       </section>

@@ -4,15 +4,15 @@ import VueRouter from "vue-router";
 import Home from "./pages/Home";
 import Participate from "./pages/Participate";
 import Attribution from "./pages/Attribution";
-import Highlights from "./pages/Highlights";
+import LiveFeed from "./pages/LiveFeed";
 import Vision from "./pages/Vision";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faVideo, faUserFriends, faShareAlt } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faVideo, faUserFriends, faShareAlt)
+library.add(faVideo, faUserFriends, faShareAlt);
 
-Vue.component('font-awesome-icon', FontAwesomeIcon)
+Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Vue.config.productionTip = false;
 
@@ -28,8 +28,8 @@ const routes = [
     path: '/vision',
   },
   {
-    component: Highlights,
-    path: '/highlights',
+    component: LiveFeed,
+    path: '/livefeed',
   },
   {
     component: Attribution,

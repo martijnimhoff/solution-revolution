@@ -1,5 +1,4 @@
 <template>
-
   <div class="wall-io">
     <!-- Header -->
     <div id="header-wrapper">
@@ -31,8 +30,8 @@
     }
 
     iframe {
-      margin-top: 45px;
-      height: calc(100vh - 45px);
+      margin-top: 112px;
+      height: calc(100vh - 112px);
       width: 100%;
     }
   }

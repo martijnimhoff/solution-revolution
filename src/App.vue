@@ -88,8 +88,8 @@
             to: '/vision',
           },
           {
-            title: 'Highlights',
-            to: '/highlights',
+            title: 'Live Feed',
+            to: '/livefeed',
           },
           {
             title: 'Attribution',
