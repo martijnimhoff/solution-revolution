@@ -28,7 +28,7 @@
     <div class="wrapper">
       <section class="container">
         <header class="major">
-          <h2>Highlights</h2>
+          <h2>Live Feed</h2>
         </header>
         <div class="row features">
           <section class="col-4 col-12-narrower feature">
@@ -49,7 +49,7 @@
         </div>
         <ul class="actions major">
           <li>
-            <router-link to="/highlights" class="button">View more</router-link>
+            <router-link to="/highlights" class="button">Live Feed</router-link>
           </li>
         </ul>
       </section>
