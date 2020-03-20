@@ -7,7 +7,7 @@
 
           <!-- Logo -->
           <h1 id="logo">
-            <router-link to="/">Solution Revolution</router-link>
+            <router-link to="/">#SolutionRevolution</router-link>
           </h1>
 
           <!-- Nav -->

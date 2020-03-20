@@ -8,7 +8,7 @@
       <section id="hero" class="container">
         <header>
           <h2>
-            Solution Revolution
+            #SolutionRevolution
           </h2>
         </header>
         <p style="">
