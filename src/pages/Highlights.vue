@@ -6,22 +6,23 @@
       <slot/>
     </div>
 
-
     <!-- Main -->
     <iframe src="https://walls.io/n6myh" frameborder="0"></iframe>
-
   </div>
 </template>
 
 <script>
-  export default {}
+  export default {
+    mounted() {
+      document.body.classList.add('overflow-hidden');
+    },
+    beforeDestroy() {
+      document.body.classList.remove('overflow-hidden');
+    }
+  }
 </script>
 
-<style lang="scss" scoped>
-  body {
-    overflow: hidden;
-  }
-
+<style lang="scss">
   .wall-io {
     #header-wrapper {
       padding: 4em 0 2em;
