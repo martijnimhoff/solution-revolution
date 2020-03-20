@@ -3,7 +3,6 @@
     <div id="page-wrapper">
 
       <router-view>
-
         <div id="header" class="container">
 
           <!-- Logo -->
@@ -27,8 +26,16 @@
           </nav>
 
         </div>
-
       </router-view>
+
+
+      <!-- Promo -->
+      <div id="promo-wrapper">
+        <section id="promo">
+          <h2>Solution revolution is an initiative by .... </h2>
+          <router-link to="/vision" class="button">The vision</router-link>
+        </section>
+      </div>
 
       <!-- Footer -->
       <div id="footer-wrapper">
