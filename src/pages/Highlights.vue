@@ -13,10 +13,10 @@
 
 <script>
   export default {
-    mounted() {
+    beforeCreate() {
       document.body.classList.add('overflow-hidden');
     },
-    beforeDestroy() {
+    destroyed() {
       document.body.classList.remove('overflow-hidden');
     }
   }
