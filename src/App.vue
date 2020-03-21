@@ -8,7 +8,7 @@
 
           <!-- Logo -->
           <h1 id="logo">
-            <router-link to="/">#SolutionRevolution</router-link>
+            <router-link to="/">#SolutionRevolution<sup>tm</sup></router-link>
           </h1>
 
           <!-- Nav -->
@@ -47,7 +47,7 @@
       <!-- Promo -->
       <div id="promo-wrapper">
         <section id="promo">
-          <h2>Solution revolution is an initiative by .... </h2>
+          <h2>Solution Revolution is an initiative by .... </h2>
           <router-link to="/vision" class="button">The vision</router-link>
         </section>
       </div>
@@ -56,7 +56,7 @@
       <div id="footer-wrapper">
         <div class="container">
           <ul class="menu">
-            <li>&copy; Solution revolution. All rights reserved.</li>
+            <li>&copy; Solution Revolution. All rights reserved.</li>
             <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
           </ul>
         </div>
