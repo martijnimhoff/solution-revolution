@@ -17,8 +17,9 @@
 
               <h3>Creative commons material</h3>
               <ul>
-                <li>Logo icon: Tree by Alice Noir from the Noun Project.</li>
-                <li>Header background photo by David Alberto Carmona Coto from Pexels.</li>
+                <li>Logo icon: Tree by <a href="https://thenounproject.com/AliceNoir/" target="_blank">Alice Noir</a> from the Noun Project.</li>
+                <li>Header background photo by <a href="https://www.pexels.com/@david-alberto-carmona-coto-434794" target="_blank">David Alberto Carmona Coto</a> from Pexels.</li>
+                <li>Website template by <a href="http://html5up.net" target="_blank">HTML5 Up</a></li>
               </ul>
             </article>
           </div>
@@ -32,7 +33,3 @@
 <script>
   export default {}
 </script>
-
-<style lang="scss">
-
-</style>
