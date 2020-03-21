@@ -6,9 +6,9 @@ import Participate from "./pages/Participate";
 import Attribution from "./pages/Attribution";
 import LiveFeed from "./pages/LiveFeed";
 import Vision from "./pages/Vision";
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faVideo, faUserFriends, faShareAlt, faBars } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faVideo, faUserFriends, faShareAlt, faBars } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 library.add(faVideo, faUserFriends, faShareAlt, faBars);
 
@@ -38,7 +38,7 @@ const routes = [
   {
     component: Participate,
     path: '/participate',
-  },
+  }
 ];
 
 const router = new VueRouter({

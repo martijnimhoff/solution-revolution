@@ -26,12 +26,12 @@
           <nav id="nav-right">
             <ul>
               <li>
-                <router-link to="attribution" class="router-link">
+                <router-link to="/attribution" class="router-link">
                   Credits
                 </router-link>
               </li>
               <li>
-                <router-link to="participate" class="button">
+                <router-link to="/participate" class="button">
                   Join the challenge
                 </router-link>
               </li>
@@ -42,7 +42,6 @@
       </div>
 
       <router-view/>
-
 
       <!-- Promo -->
       <div id="promo-wrapper">
@@ -71,11 +70,6 @@
 
     <div id="navPanel">
       <nav @click="toggleMobileMenu">
-        <router-link :to="homeMenuItem.to"
-                     class="link depth-0"
-                     style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"
-        ><span class="indent-0"></span>{{ homeMenuItem.title }}
-        </router-link>
         <router-link
             v-for="(menuItem, index) in menuItems"
             :to="menuItem.to"
@@ -98,12 +92,11 @@
       return {
         isMobileMenuOpen: false,
 
-        homeMenuItem: {
-          title: 'Home',
-          to: '/'
-        },
-
         menuItems: [
+          {
+            title: 'Home',
+            to: '/'
+          },
           {
             title: 'Vision',
             to: '/vision',
