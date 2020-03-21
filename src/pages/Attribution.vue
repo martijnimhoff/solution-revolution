@@ -1,11 +1,6 @@
 <template>
 
   <div>
-    <!-- Header -->
-    <div id="header-wrapper">
-      <slot/>
-    </div>
-
 
     <!-- Main -->
     <div class="wrapper">
@@ -17,21 +12,16 @@
             <h2>We stand on the shoulders of giants</h2>
             <p>Here is everybody who helped make this project possible.</p>
           </header>
-          <p>Ut sed tortor luctus, gravida nibh eget, volutpat odio. Proin rhoncus, sapien
-            mollis luctus hendrerit, orci dui viverra metus, et cursus nulla mi sed elit. Vestibulum
-            condimentum, mauris a mattis vestibulum, urna mauris cursus lorem, eu fringilla lacus
-            ante non est. Nullam vitae feugiat libero, eu consequat sem. Proin tincidunt neque
-            eros. Duis faucibus blandit ligula, mollis commodo risus sodales at. Sed rutrum et
-            turpis vel blandit. Nullam ornare congue massa, at commodo nunc venenatis varius.
-            Praesent mollis nisi at vestibulum aliquet. Sed sagittis congue urna ac consectetur.</p>
+
+          <ul>
+            <li>Logo icon: Tree by Alice Noir from the Noun Project</li>
+            <li>Menu background photo by David Alberto Carmona Coto from Pexels</li>
+          </ul>
+
           <p>Mauris eleifend eleifend felis aliquet ornare. Vestibulum porta velit at elementum
             gravida nibh eget, volutpat odio. Proin rhoncus, sapien
-            mollis luctus hendrerit, orci dui viverra metus, et cursus nulla mi sed elit. Vestibulum
-            condimentum, mauris a mattis vestibulum, urna mauris cursus lorem, eu fringilla lacus
-            ante non est. Nullam vitae feugiat libero, eu consequat sem. Proin tincidunt neque
-            eros. Duis faucibus blandit ligula, mollis commodo risus sodales at. Sed rutrum et
-            turpis vel blandit. Nullam ornare congue massa, at commodo nunc venenatis varius.
-            Praesent mollis nisi at vestibulum aliquet. Sed sagittis congue urna ac consectetur.</p>
+            mollis luctus hendrerit, orci dui vivctetur.</p>
+
           <p>Vestibulum pellentesque posuere lorem non aliquam. Mauris eleifend eleifend
             felis aliquet ornare. Vestibulum porta velit at elementum elementum.</p>
         </article>

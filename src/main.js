@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from "vue-router";
-import Home from "./pages/Home";
+// import Home from "./pages/Home";
 import Participate from "./pages/Participate";
 import Attribution from "./pages/Attribution";
 import LiveFeed from "./pages/LiveFeed";
@@ -20,7 +20,7 @@ Vue.use(VueRouter);
 
 const routes = [
   {
-    component: Home,
+    component: LiveFeed,
     path: '/',
   },
   {

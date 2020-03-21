@@ -1,10 +1,5 @@
 <template>
   <div class="wall-io">
-    <!-- Header -->
-    <div id="header-wrapper">
-      <slot/>
-    </div>
-
     <!-- Main -->
     <iframe src="https://walls.io/n6myh" frameborder="0"></iframe>
   </div>
@@ -21,18 +16,16 @@
   }
 </script>
 
-<style lang="scss">
-  .wall-io {
-    #header-wrapper {
-      padding: 4em 0 2em;
-      position: fixed;
-      width: 100%;
-    }
+<style lang="scss" scoped>
 
-    iframe {
-      margin-top: 112px;
-      height: calc(100vh - 112px);
-      width: 100%;
-    }
+  #header-wrapper {
+    padding: 4em 0 2em;
+    position: fixed;
+    width: 100%;
+  }
+
+  .wall-io iframe {
+    height: calc(100vh - 112px);
+    width: 100%;
   }
 </style>

@@ -2,7 +2,8 @@
   <div class="outer-page-wrapper">
     <div id="page-wrapper">
 
-      <router-view>
+      <!-- Header -->
+      <div id="header-wrapper">
         <div id="header" class="container">
 
           <!-- Logo -->
@@ -38,8 +39,9 @@
           </nav>
 
         </div>
+      </div>
 
-      </router-view>
+      <router-view/>
 
 
       <!-- Promo -->
@@ -62,7 +64,9 @@
     </div>
 
     <div id="navButton">
-      <a type="button" @click="toggleMobileMenu" class="toggle"><font-awesome-icon icon="bars"/></a>
+      <a type="button" @click="toggleMobileMenu" class="toggle">
+        <font-awesome-icon icon="bars"/>
+      </a>
     </div>
 
     <div id="navPanel">
@@ -70,7 +74,8 @@
         <router-link :to="homeMenuItem.to"
                      class="link depth-0"
                      style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"
-        ><span class="indent-0"></span>{{ homeMenuItem.title }}</router-link>
+        ><span class="indent-0"></span>{{ homeMenuItem.title }}
+        </router-link>
         <router-link
             v-for="(menuItem, index) in menuItems"
             :to="menuItem.to"

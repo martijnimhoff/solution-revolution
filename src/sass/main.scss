@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+/*//@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");*/
+@import url('https://fonts.googleapis.com/css?family=Baloo+Da+2:400,600&display=swap');
 
 /*
 	Telephasic by HTML5 UP
@@ -89,7 +90,7 @@ html {
 
 body {
   background: #f5f7fa;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Baloo Da 2', sans-serif;
   font-weight: 300;
   color: #52575c;
   line-height: 1.75em;
@@ -97,7 +98,7 @@ body {
 }
 
 input, textarea, select {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Baloo Da 2', sans-serif;
   font-weight: 300;
   color: #52575c;
   line-height: 1.75em;
@@ -2143,19 +2144,19 @@ button:hover,
 #nav-left, #nav-right {
   position: absolute;
   top: 0;
-  width: auto;
+  width: 50%;
   height: 5em;
   line-height: 5em;
 }
 
 #nav-left {
-  text-align: left;
   left: 0;
+  text-align: left;
 }
 
 #nav-right {
-  text-align: right;
   right: 0;
+  text-align: right;
 }
 
 #nav-left > ul, #nav-right > ul {

@@ -1,29 +1,5 @@
 <template>
   <div>
-    <!-- Header -->
-    <div id="header-wrapper">
-      <slot/>
-
-<!--      &lt;!&ndash; Hero &ndash;&gt;-->
-<!--      <section id="hero" class="container">-->
-<!--        <header>-->
-<!--          <h2>-->
-<!--            #SolutionRevolution-->
-<!--          </h2>-->
-<!--        </header>-->
-<!--        <p style="">-->
-<!--          What if Covid-19 is an open call for a better world? What will you do different?-->
-<!--        </p>-->
-<!--        <ul class="actions">-->
-<!--          <li>-->
-<!--            <router-link to="/participate" class="button">Join the challenge</router-link>-->
-<!--          </li>-->
-<!--        </ul>-->
-<!--      </section>-->
-
-    </div>
-
-
     <!-- Features 2 -->
     <div class="wrapper">
       <section class="container">

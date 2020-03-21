@@ -1,10 +1,5 @@
 <template>
   <div>
-    <!-- Header -->
-    <div id="header-wrapper">
-      <slot/>
-    </div>
-
 
     <!-- Main -->
     <div class="wrapper">
@@ -17,7 +12,6 @@
             <p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit
               dolor neque semper.</p>
           </header>
-          <a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
           <p>Ut sed tortor luctus, gravida nibh eget, volutpat odio. Proin rhoncus, sapien
             mollis luctus hendrerit, orci dui viverra metus, et cursus nulla mi sed elit. Vestibulum
             condimentum, mauris a mattis vestibulum, urna mauris cursus lorem, eu fringilla lacus

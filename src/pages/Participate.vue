@@ -1,10 +1,5 @@
 <template>
   <div>
-    <!-- Header -->
-    <div id="header-wrapper">
-      <slot/>
-    </div>
-
     <!-- Main -->
     <div class="wrapper">
       <div class="container" id="main">
