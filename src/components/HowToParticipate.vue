@@ -9,22 +9,22 @@
         <header>
           <h3>Record your video</h3>
         </header>
-        <p>Mention who nominated you. State your problem, and that is bad news! Then state your solution, and that
-          is good news!</p>
+        <p>Mention who nominated you. State your problem, and that that is bad news! Then state your solution, and that
+          that is good news!</p>
       </section>
       <section class="col-4 col-12-narrower feature">
         <font-awesome-icon size="2x" icon="user-friends"/>
         <header>
           <h3>Nominate others</h3>
         </header>
-        <p>Nominate one or more other persons to share their good news.</p>
+        <p>Nominate one or more other persons to share their good news solution!</p>
       </section>
       <section class="col-4 col-12-narrower feature">
         <font-awesome-icon size="2x" icon="share-alt"/>
         <header>
           <h3>Share</h3>
         </header>
-        <p>Post your video to your favorite social media channel. Use the hashtag #solutionrelovution and #goodnews.</p>
+        <p>Post your video to your favorite social media channel. Use the hashtags #solutionrevolution and #goodnews.</p>
       </section>
     </div>
   </div>
