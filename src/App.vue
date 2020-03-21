@@ -8,7 +8,7 @@
 
           <!-- Logo -->
           <h1 id="logo">
-            <router-link to="/">#SolutionRevolution<sup>tm</sup></router-link>
+            <router-link to="/">#SolutionRevolution</router-link>
           </h1>
 
           <!-- Nav -->
@@ -46,7 +46,7 @@
       <!-- Promo -->
       <div id="promo-wrapper">
         <section id="promo">
-          <h2>What if Covid-19 is an open call for a better world? What will you do different?</h2>
+          <h2>What if Covid-19 were an open call for a better world? What would you do different?</h2>
           <router-link to="/vision" class="button">The vision</router-link>
         </section>
       </div>
@@ -55,7 +55,7 @@
       <div id="footer-wrapper">
         <div class="container">
           <ul class="menu">
-            <li>&copy; Solution Revolution. All rights reserved.</li>
+            <li>&copy; #solutionrevolution, All rights reserved.</li>
             <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
           </ul>
         </div>

@@ -24,7 +24,7 @@
         <header>
           <h3>Share</h3>
         </header>
-        <p>Post your video to your favorite social media channel. Use the hashtags #solutionrevolution and #goodnews.</p>
+        <p>Post your video to your favorite social media channel. Be sure to use the hashtags #solutionrevolution and #goodnews.</p>
       </section>
     </div>
   </div>
