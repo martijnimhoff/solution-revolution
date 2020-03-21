@@ -27,7 +27,7 @@
             <ul>
               <li>
                 <router-link to="attribution" class="router-link">
-                  Attribution
+                  Credits
                 </router-link>
               </li>
               <li>
@@ -47,7 +47,7 @@
       <!-- Promo -->
       <div id="promo-wrapper">
         <section id="promo">
-          <h2>Solution Revolution is an initiative by .... </h2>
+          <h2>What if Covid-19 is an open call for a better world? What will you do different?</h2>
           <router-link to="/vision" class="button">The vision</router-link>
         </section>
       </div>
@@ -113,7 +113,7 @@
             to: '/livefeed',
           },
           {
-            title: 'Attribution',
+            title: 'Credits',
             to: '/attribution',
           },
           {

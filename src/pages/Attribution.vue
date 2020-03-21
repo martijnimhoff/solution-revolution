@@ -6,25 +6,23 @@
     <div class="wrapper">
       <div class="container" id="main">
 
-        <!-- Content -->
-        <article id="content">
-          <header>
-            <h2>We stand on the shoulders of giants</h2>
-            <p>Here is everybody who helped make this project possible.</p>
-          </header>
+        <div class="row">
+          <div class="col-8 off-2">
+            <!-- Content -->
+            <article id="content">
+              <header>
+                <h2>We stand on the shoulders of giants</h2>
+                <p>Big thanks to everybody who helped make this project possible.</p>
+              </header>
 
-          <ul>
-            <li>Logo icon: Tree by Alice Noir from the Noun Project</li>
-            <li>Menu background photo by David Alberto Carmona Coto from Pexels</li>
-          </ul>
-
-          <p>Mauris eleifend eleifend felis aliquet ornare. Vestibulum porta velit at elementum
-            gravida nibh eget, volutpat odio. Proin rhoncus, sapien
-            mollis luctus hendrerit, orci dui vivctetur.</p>
-
-          <p>Vestibulum pellentesque posuere lorem non aliquam. Mauris eleifend eleifend
-            felis aliquet ornare. Vestibulum porta velit at elementum elementum.</p>
-        </article>
+              <h3>Creative commons material</h3>
+              <ul>
+                <li>Logo icon: Tree by Alice Noir from the Noun Project.</li>
+                <li>Header background photo by David Alberto Carmona Coto from Pexels.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
       </div>
     </div>
 
