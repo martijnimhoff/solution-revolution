@@ -11,21 +11,34 @@
           </h1>
 
           <!-- Nav -->
-          <nav id="nav">
+          <nav id="nav-left">
             <ul>
-              <li
-                  v-for="(menuItem, index) in menuItems"
-                  :key="index"
-                  :class="{break: index === 2}"
-              >
-                <router-link :to="menuItem.to" class="router-link">
-                  {{ menuItem.title }}
+              <li>
+                <router-link to="/vision" class="router-link">Vision</router-link>
+              </li>
+              <li>
+                <router-link to="/livefeed" class="router-link">Live Feed</router-link>
+              </li>
+            </ul>
+          </nav>
+
+          <nav id="nav-right">
+            <ul>
+              <li>
+                <router-link to="attribution" class="router-link">
+                  Attribution
+                </router-link>
+              </li>
+              <li>
+                <router-link to="participate" class="button">
+                  Join the challenge
                 </router-link>
               </li>
             </ul>
           </nav>
 
         </div>
+
       </router-view>
 
 
@@ -49,12 +62,15 @@
     </div>
 
     <div id="navButton">
-      <a type="button" @click="toggleMobileMenu" class="toggle"></a>
+      <a type="button" @click="toggleMobileMenu" class="toggle"><font-awesome-icon icon="bars"/></a>
     </div>
 
     <div id="navPanel">
-      <nav>
-        <router-link :to="homeMenuItem.to">{{ homeMenuItem.title }}</router-link>
+      <nav @click="toggleMobileMenu">
+        <router-link :to="homeMenuItem.to"
+                     class="link depth-0"
+                     style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"
+        ><span class="indent-0"></span>{{ homeMenuItem.title }}</router-link>
         <router-link
             v-for="(menuItem, index) in menuItems"
             :to="menuItem.to"
@@ -96,7 +112,7 @@
             to: '/attribution',
           },
           {
-            title: 'Participate',
+            title: 'Join the challenge',
             to: '/participate',
           },
         ]
