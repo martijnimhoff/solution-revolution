@@ -18,7 +18,7 @@
                 <router-link to="/vision" class="router-link">Vision</router-link>
               </li>
               <li>
-                <router-link to="/livefeed" class="router-link">Live Feed</router-link>
+                <router-link to="/livefeed" class="router-link">Live Map</router-link>
               </li>
             </ul>
           </nav>
