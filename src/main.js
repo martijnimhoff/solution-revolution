@@ -4,7 +4,8 @@ import VueRouter from "vue-router";
 // import Home from "./pages/Home";
 import Participate from "./pages/Participate";
 import Attribution from "./pages/Attribution";
-import LiveFeed from "./pages/LiveFeed";
+import TileView from "./pages/TileView";
+import MapView from "./pages/MapView";
 import Vision from "./pages/Vision";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faVideo, faUserFriends, faShareAlt, faBars } from '@fortawesome/free-solid-svg-icons';
@@ -20,7 +21,7 @@ Vue.use(VueRouter);
 
 const routes = [
   {
-    component: LiveFeed,
+    component: TileView,
     path: '/',
   },
   {
@@ -28,7 +29,7 @@ const routes = [
     path: '/vision',
   },
   {
-    component: LiveFeed,
+    component: MapView,
     path: '/livefeed',
   },
   {

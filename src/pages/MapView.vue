@@ -1,7 +1,7 @@
 <template>
   <div class="wall-io">
     <!-- Main -->
-    <iframe src="https://walls.io/n6myh" frameborder="0"></iframe>
+    <iframe src="https://walls.io/n6myh?colorscheme=classic&amp;theme=map&amp;show_header=0&amp;map_style=classic" frameborder="0"></iframe>
   </div>
 </template>
 
