@@ -21,7 +21,7 @@ Vue.use(VueRouter);
 
 const routes = [
   {
-    component: TileView,
+    component: MapView,
     path: '/',
   },
   {
@@ -29,7 +29,7 @@ const routes = [
     path: '/vision',
   },
   {
-    component: MapView,
+    component: TileView,
     path: '/livefeed',
   },
   {
