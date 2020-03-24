@@ -9,12 +9,12 @@
               <header>
                 <h2>{{ message }}</h2>
               </header>
+              <p v-if="statusCode === 404">
+                <nuxt-link to="/">
+                  Return to homepage
+                </nuxt-link>
+              </p>
             </article>
-            <p v-if="statusCode === 404">
-              <nuxt-link to="/">
-                Return to homepage
-              </nuxt-link>
-            </p>
           </div>
         </div>
       </div>
