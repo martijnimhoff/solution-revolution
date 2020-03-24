@@ -5,9 +5,11 @@
       <div id="main" class="container">
         <div class="row">
           <div class="col-10 off-1">
-            <div class="title">
-              {{ message }}
-            </div>
+            <article>
+              <header>
+                <h2>{{ message }}</h2>
+              </header>
+            </article>
             <p v-if="statusCode === 404">
               <nuxt-link to="/">
                 Return to homepage
