@@ -1,6 +1,6 @@
 # Solution Revolution
 
-![Travis CI Badge](https://travis-ci.com/martijnimhoff/solution-revolution.svg?branch=master)
+[![Travis CI Badge](https://travis-ci.com/martijnimhoff/solution-revolution.svg?branch=master)](https://travis-ci.com/github/martijnimhoff/solution-revolution)
 
 > Explainer website for the #SolutionRevolution
 
