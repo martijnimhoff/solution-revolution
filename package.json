@@ -17,7 +17,8 @@
     "@fortawesome/vue-fontawesome": "^0.1.9",
     "@nuxtjs/axios": "^5.9.6",
     "@nuxtjs/dotenv": "^1.4.1",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "superagent": "^5.2.2"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",
