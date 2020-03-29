@@ -76,8 +76,13 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/axios',
+    '@nuxtjs/dotenv'
   ],
+  axios: {
+    // axios config here
+  },
   /*
    ** Nuxt.js modules
    */

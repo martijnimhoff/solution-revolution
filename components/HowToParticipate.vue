@@ -47,6 +47,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'HowToParticipate'
+}
+</script>
+
 <style scoped>
 header.major {
   margin-bottom: 3em;
