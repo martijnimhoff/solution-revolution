@@ -17,6 +17,9 @@ install:
 script:
   - echo "Skipping tests"
 
+env:
+  - GOOGLE_CALENDAR_API_KEY=$GITHUB_ACCESS_TOKEN
+
 deploy:
   provider: pages
   skip-cleanup: true
